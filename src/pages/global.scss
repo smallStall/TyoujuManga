@@ -1,0 +1,50 @@
+
+:root {
+  --primary: #65272b;
+  --background: #eeefef;
+  --contrast: #eeefef;
+  --footer-header: #0f1853;
+  --theme: #412b1c;
+  --tyou:#fbeb3d;
+  --ju: #d6004a;
+  --ga: #96cad7;
+}
+
+html[data-theme='light'] {
+  --primary: #65272b;
+  --warning: #ae0d16;
+  --paper: #65272b;
+  --background: #fff4d6;
+  --contrast: #fff4d6;
+  --footer-header: #65272b;
+  --deep: #412b1c;
+  --theme: #412b1c;
+  --pale: #e2c8bb;
+}
+
+html[data-theme='dark'] {
+  --primary: #fffaee;
+  --warning: #cc242d;
+  --paper: #fffaee;
+  --background:#3f2419;
+  --contrast: #fffaee;
+  --footer-header: #652727;
+  --deep: #412b1c;
+  --theme: #412b1c;
+  --pale: #e2c8bb;
+}
+
+body{
+  background-color: var(--footer-header);
+}
+
+
+.react-multi-carousel-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.4;
+}
+.react-multi-carousel-item--active {
+  opacity: 1;
+}

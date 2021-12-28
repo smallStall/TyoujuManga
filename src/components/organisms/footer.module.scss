@@ -1,0 +1,23 @@
+
+.root{
+  width: 100%;
+  height: 1.7%;
+  bottom: 0;
+  position: absolute;
+  background: var(--footer-header);
+}
+
+.empty{
+  display: none
+}
+
+.credit{
+  color: var(--contrast);
+  margin: 0 20px 5px 0;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 0.8em;
+}
+
+

@@ -1,0 +1,19 @@
+.serif{
+  font-family: 'Shippori Antique B1', sans-serif;
+  white-space: pre-wrap;
+  word-break:break-all;
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-rl;
+  height: 7em;
+  width: 5em;
+  cursor: pointer;
+}
+
+.input{
+  font-size: 16px;
+  top:30%;
+  left: 15%;
+  height: 30%;
+  width:  30%;
+}

@@ -1,0 +1,36 @@
+.root{
+  position: relative;
+  height: 20em;
+  background-color: var(--background);
+  border: 4px solid var(--background);
+  width: 30em;
+}
+
+
+.koma {
+  position: absolute;
+  height: auto;
+  width: 30em;
+  outline: 5px solid black;
+  outline-offset: -5px;
+}
+
+.balloon{
+  position: absolute;
+  height: auto;
+  width: 30em;
+}
+
+.input{
+  position: absolute;
+  top:30%;
+  left: 15%;
+  height: 30%;
+  width:  40%;
+}
+
+.fukidashi{
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}

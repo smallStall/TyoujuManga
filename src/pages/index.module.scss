@@ -1,0 +1,30 @@
+.container{
+  margin-top: 20px;
+}
+
+.main{
+  background-color: var(--background);
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:stretch;
+  height: 100%;
+  margin: 0 0 0 0;
+  background-color: var(--background);
+}
+
+.memoDiv{
+  text-align: right;
+  top:auto;
+  bottom: 12%;
+}
+
+.sideBarTopBar{
+  display: flex;
+  flex-wrap: wrap;
+  height: 10%;
+  background-color: var(--background);
+}
